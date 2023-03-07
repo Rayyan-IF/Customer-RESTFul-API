@@ -1,0 +1,15 @@
+services:
+  flask_api:
+    image: "flask_api:1"
+    depends_on:
+      - mysql_api
+
+  mysql_api:
+    image: "mysql_api:1"
+    restart: always
+    environment:
+      MYSQL_DATABASE: "store"
+      MYSQL_ROOT_USERNAME: "root"
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+    ports:
+      - 3306:3306
