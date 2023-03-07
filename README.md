@@ -44,3 +44,5 @@ app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://root:@127.0.0.1:3306/stor
 ```bash
 $ flask run
 ```
+## Extra Information :
+I have tried docker, but it's not working
