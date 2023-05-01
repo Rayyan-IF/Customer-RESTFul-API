@@ -1,7 +1,3 @@
-# Customer-RESTFul-API
-
-Techincal Test - Backend Engineer (Rayyan)
-
 ## Technology Stack :
 
 - Python 3.10.10
